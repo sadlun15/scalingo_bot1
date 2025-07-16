@@ -3,6 +3,7 @@ import sqlite3
 
 bot = telebot.TeleBot('8140677544:AAFZzTOBYZyb_vUEJyh0m9J14n4OIlvJfts')
 set_id = None
+PROJECT_DIR=server
 
 @bot.message_handler(commands=['start'])
 def start(message):
